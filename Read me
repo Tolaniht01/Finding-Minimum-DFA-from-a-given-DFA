@@ -1,0 +1,23 @@
+You will be given the input in a matrix form.  
+Where M is transition matrix of (2t+1) * t size, defined as similar to the other programs. The first row represents the final row, next t rows corresponding to input alphabet 0 and last t rows are for alphabet 1. 
+
+
+You take the matrix and write a C program to find the equivalent minimum size automata. 
+
+Your output must be in the form of t1$M1 where t1 is the number of states in the minimized DFA and M1 is the matrix of size (2*t1 + 1) * t1
+
+The first row represents final states. The rest of the matrix represents the transition matrix of minimized DFA with first t1 rows for alphabet 0 and last t1 rows for alphabet 1. 
+
+You can label the states of the new DFA in any fashion, but the start state must be the 0th state. 
+
+
+How to test the correctness of your program:
+
+1. In your program, you must read input from file "input.txt" and should create and output file with name "output.txt"
+     Please follow the same format. 
+2. Keep your .c file in folder name with 'auto grade'
+3. Run test.py from terminal from the same folder
+4. If it returns "Ture" your output is correct.
+   If it returns "False", something wrong with your program, correct it. 
+
+
